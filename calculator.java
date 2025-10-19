@@ -7,7 +7,6 @@ public class Calculator {
         double num1, num2;
         char operator;
 
-        System.out.println("=== Simple Calculator ===");
         System.out.print("Enter first number: ");
         num1 = input.nextDouble();
 
