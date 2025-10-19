@@ -26,7 +26,12 @@ public class Calculator {
                 break;
 
             case '-':
-                result = num1 - num2;
+                if(num1 > num2){
+                    result = num1 - num2;
+                }
+                else {
+                    result = num2 - num1;
+                }      
                 System.out.println("Result: " + result);
                 break;
 
